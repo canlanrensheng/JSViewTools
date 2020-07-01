@@ -1,0 +1,22 @@
+{
+  "name": "JSViewTools",
+  "version": "0.1.0",
+  "summary": "A short description of JSViewTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jinshan zhang/JSViewTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jinshan zhang": "15168288729@163.com"
+  },
+  "source": {
+    "git": "https://github.com/jinshan zhang/JSViewTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JSViewTools/Classes/**/*"
+}

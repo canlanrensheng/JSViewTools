@@ -1,0 +1,6 @@
+framework module Pods_JSViewTools_Tests {
+  umbrella header "Pods-JSViewTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

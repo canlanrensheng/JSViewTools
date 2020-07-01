@@ -1,0 +1,16 @@
+PODS:
+  - JSViewTools (0.1.0)
+
+DEPENDENCIES:
+  - JSViewTools (from `../`)
+
+EXTERNAL SOURCES:
+  JSViewTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSViewTools: ae17944828145d489d3e2bb425d37d34324528dc
+
+PODFILE CHECKSUM: df5fd156aa23590788bdcec6f2ebec0251a2253b
+
+COCOAPODS: 1.9.3

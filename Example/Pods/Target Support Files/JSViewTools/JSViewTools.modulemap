@@ -1,0 +1,6 @@
+framework module JSViewTools {
+  umbrella header "JSViewTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
