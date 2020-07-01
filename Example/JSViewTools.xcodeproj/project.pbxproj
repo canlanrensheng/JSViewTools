@@ -26,11 +26,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E5DEF241E6CF8565AE3D9DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		72912F9F8E25096BE053A8DD /* JSViewTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSViewTools.podspec; path = ../JSViewTools.podspec; sourceTree = "<group>"; };
+		6E5DEF241E6CF8565AE3D9DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		72912F9F8E25096BE053A8DD /* JSViewTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSViewTools.podspec; path = ../JSViewTools.podspec; sourceTree = "<group>"; };
 		B867D5F070181C8CB5DA9E73 /* Pods_JSViewTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSViewTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C99F0ED2B620A0BA0CAEFE /* Pods-JSViewTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSViewTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JSViewTools_Tests/Pods-JSViewTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C617A04103249B50E55ABF62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C617A04103249B50E55ABF62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				C4C99F0ED2B620A0BA0CAEFE /* Pods-JSViewTools_Tests.debug.xcconfig */,
 				0C7D9FEA43365E5A029A79EB /* Pods-JSViewTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +150,7 @@
 				ORGANIZATIONNAME = "jinshan zhang";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = M9A44D2XZU;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -160,6 +160,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4C99F0ED2B620A0BA0CAEFE /* Pods-JSViewTools_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M9A44D2XZU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -351,6 +353,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C7D9FEA43365E5A029A79EB /* Pods-JSViewTools_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M9A44D2XZU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
