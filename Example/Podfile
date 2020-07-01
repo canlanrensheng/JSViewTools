@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JSViewTools_Tests' do
+  pod 'JSViewTools', :path => '../'
+  
+  
+end
